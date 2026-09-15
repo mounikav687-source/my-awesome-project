@@ -1,1 +1,17 @@
+# Simple Python Program
 
+def greet_user(name):
+    return f"Hello, {name}! Welcome to your Python project on GitHub."
+
+def main():
+    user_name = "Developer"
+    message = greet_user(user_name)
+    print(message)
+
+    # Perform a basic calculation
+    num1 = 10
+    num2 = 5
+    print(f"Calculation: {num1} + {num2} = {num1 + num2}")
+
+if __name__ == "__main__":
+    main()
